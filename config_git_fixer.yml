@@ -1,0 +1,18 @@
+git_fixer_remove:
+  - git_fixer2_MODIFIED*.py
+  - intro_MODIFIED_*.md
+  - "_*MODIFIED_*MODIFIED_*"
+  - "data/_*MODIFIED_*MODIFIED_*"
+  - "images/_*MODIFIED_*MODIFIED_*"
+  - _MODIFIED_*.gitignore
+  - requirements_MODIFIED_*.txt
+git_fixer_ignore:
+  - commit_us.txt
+  - tracked_files.txt
+  - config_git_fixer.yml
+  - diff*.diff
+  - class_*_MODIFIED*.ipynb
+  - tracked_files*.txt
+  - mod*.txt
+  - assignments/*
+  - "*_MODIFIED_*"

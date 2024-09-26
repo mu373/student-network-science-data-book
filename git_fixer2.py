@@ -4,12 +4,13 @@ import glob
 import sys
 import shutil
 import argparse
+import yaml
 
-# Takes command line arguments
-parser = argparse.ArgumentParser()
-parser.add_argument('--ignore', help="File path patterns to ignore. Takes comma delimited strings such as \"assignment/,somefileprefix\".")
+with open("config_git_fixer.yml") as stream:
+    config = yaml.safe_load(stream)
 
-args = parser.parse_args()
+GIT_FIXER_REMOVE = config['git_fixer_remove']
+GIT_FIXER_IGNORE = config['git_fixer_ignore']
 
 
 # Function to check if 'upstream' remote is set up
@@ -19,6 +20,7 @@ def check_upstream_remote():
         print("The 'upstream' remote is not set up. Please run the following command to set it up:")
         print("git remote add upstream <upstream-repository-url>")
         sys.exit(1)
+
 
 # Check if the upstream remote is set up
 check_upstream_remote()
@@ -59,6 +61,8 @@ def revert_to_upstream(file_path):
 modified_files = []
 os.system('git ls-tree -r main --name-only > tracked_files.txt')
 
+to_remove = []
+to_ignore = []
 with open('tracked_files.txt', 'r') as f:
     for file_path in f.readlines():
         file_path = file_path.strip()
@@ -67,14 +71,11 @@ with open('tracked_files.txt', 'r') as f:
         # - files that has already been copied with suffix MODIFIED 
         # - files in assignments directory
         ignore_patterns = ['MODIFIED', 'assignments/',]
-
+        
         # Also take command line arguments for additional ignore patterns
         # Usage: python3 git_fixer2.py --ignore="some_file_name,some_directory_name/"
-        if args.ignore:
-            additional_ignore_patterns = args.ignore.split(',')
-            ignore_patterns.extend(additional_ignore_patterns)
-        
-        if all(pattern not in file_path for pattern in ignore_patterns):
+         
+        if all(pattern not in glob.glob(pattern) for pattern in GIT_FIXER_IGNORE):
             # Compare each file with its upstream version
             result = compare_with_upstream(file_path)
             if result is not None and result != 0:
@@ -93,6 +94,8 @@ for file_path in modified_files:
     # Revert the original file to the upstream version
     revert_to_upstream(file_path)
 
+for wildcard in GIT_FIXER_REMOVE:
+    os.system('rm -f {}'.format(wildcard))
 # Now merge the upstream changes without affecting the original files
 os.system('git merge --no-commit upstream/main')
 
@@ -106,3 +109,13 @@ for modified_file in modified_files:
         if os.system('cmp --silent "{}" "{}"'.format(matching_files[0], matching_files[idx])) == 0:
             os.remove(matching_files[idx])
             print("Removed duplicate modified file: {}".format(matching_files[idx]))
+
+os.system("git ls-files --others --exclude-standard > commit_us.txt")
+
+with open("commit_us.txt", 'r') as f:
+    print("don't forget to add/commit/push the following: \n")
+    for line in f.readlines():
+        print(line)
+        if line.strip() not in GIT_FIXER_IGNORE:
+            print(line)
+        

@@ -2,3 +2,9 @@
 */.DS_Store
 .ipynb_checkpoints/
 diff.diff
+data/*_MODIFIED*
+data/cit-HepPh/*_MODIFIED*
+data/paris/*_MODIFIED*
+images/*_MODIFIED*
+images/pngs/*_MODIFIED*
+images/pdfs/*_MODIFIED*
