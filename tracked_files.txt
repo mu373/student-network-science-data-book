@@ -1,5 +1,9 @@
 .gitignore
 assignments/assignment01.ipynb
+assignments/assignment02-q2.ipynb
+assignments/assignment02-q3.ipynb
+assignments/tsp/tsp.py
+assignments/tsp/tsp.sh
 class_00_github_computing_setup.ipynb
 class_01_python_refresher.ipynb
 class_02_networkx1.ipynb
@@ -20,8 +24,14 @@ class_10_communities1.ipynb
 class_10_communities1_MODIFIED.ipynb
 class_11_communities2.ipynb
 class_11_communities2_MODIFIED.ipynb
+class_12_visualization_python.ipynb
+class_12_visualization_python_MODIFIED.ipynb
+class_14_machine_learning1.ipynb
+class_14_machine_learning1_MODIFIED.ipynb
+class_15_machine_learning2_MODIFIED.ipynb
 class_20_ergms.ipynb
 class_xx_project_template.ipynb
+color-explorer.ipynb
 commit_us.txt
 config_git_fixer.yml
 data/Fish.csv
@@ -33,6 +43,7 @@ data/cit-HepPh/cit-HepPh-dates.txt
 data/cit-HepPh/cit-HepPh.txt
 data/episodes.json
 data/kardashian_jenner_urls_jan_1_2024_to_july_31_2024_mediacloud.csv
+data/mystery.pickle
 data/paris/network_bus.csv
 data/paris/network_nodes.csv
 data/paris/network_rail.csv
@@ -47,6 +58,8 @@ data/tsp/brazil58.gml
 data/tsp/brg180.gml
 data/tsp/gr229.gml
 data/tsp/pr439.gml
+data/univ_language.txt
+final-project/final-project.ipynb
 git_fixer.py
 git_fixer2.py
 images/BFS.gif
@@ -62,6 +75,7 @@ images/concentric_circles.png
 images/crab_ad.jpeg
 images/crab_ad_2.jpeg
 images/discovery_classroom_integration.png
+images/economicgeography.png
 images/eigenvector_centrality_illustration.001.jpeg
 images/eigenvector_centrality_illustration.002.jpeg
 images/eigenvector_centrality_illustration.003.jpeg
@@ -81,6 +95,7 @@ images/karate_fig.png
 images/louvain.png
 images/maruary.jpg
 images/matplotlib_cheatsheet1.png
+images/matplotlibcolors.png
 images/mdl_spectrum.png
 images/modularity_from_fluctuations.png
 images/most_used_programming_languages.png
@@ -97,6 +112,7 @@ images/pdfs/Pk_ER_vs_poisson.pdf
 images/pdfs/PolBlogs_inout_degreedist.pdf
 images/pdfs/PolBlogs_inout_degreedist_binningcompare.pdf
 images/pdfs/PolBlogs_network.pdf
+images/pdfs/UniversalLanguage.pdf
 images/pdfs/centrality_compare_networkx.pdf
 images/pdfs/class_01_figure1.pdf
 images/pdfs/class_01_figure2.pdf
@@ -106,8 +122,12 @@ images/pdfs/class_01_figure5.pdf
 images/pdfs/class_01_figure6.pdf
 images/pdfs/class_01_figure7.pdf
 images/pdfs/class_01_figure8.pdf
+images/pdfs/color_explorer_TestColormap1.pdf
+images/pdfs/color_explorer_TestColormap2.pdf
+images/pdfs/er_span_viz.pdf
 images/pdfs/modularity_fluctuations_sf.pdf
 images/pdfs/networkx_example_BFS.pdf
+images/pdfs/prefattach_span_viz.pdf
 images/pngs/Pk_ER_vs_poisson.png
 images/pngs/PolBlogs_inout_degreedist.png
 images/pngs/PolBlogs_inout_degreedist_binningcompare.png
@@ -121,9 +141,14 @@ images/pngs/class_01_figure5.png
 images/pngs/class_01_figure6.png
 images/pngs/class_01_figure7.png
 images/pngs/class_01_figure8.png
+images/pngs/color_explorer_TestColormap1.png
+images/pngs/color_explorer_TestColormap2.png
+images/pngs/er_span_viz.png
 images/pngs/facebook-sbm.png
 images/pngs/modularity_fluctuations_sf.png
 images/pngs/networkx_example_BFS.png
+images/pngs/prefattach_span_viz.png
+images/polysemy.png
 images/sbm_1970s.png
 images/schedule.jpg
 images/sync_fork.png
