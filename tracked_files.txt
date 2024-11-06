@@ -28,7 +28,9 @@ class_12_visualization_python.ipynb
 class_12_visualization_python_MODIFIED.ipynb
 class_14_machine_learning1.ipynb
 class_14_machine_learning1_MODIFIED.ipynb
+class_15_machine_learning2.ipynb
 class_15_machine_learning2_MODIFIED.ipynb
+class_16_dynamics1.ipynb
 class_20_ergms.ipynb
 class_xx_project_template.ipynb
 color-explorer.ipynb
