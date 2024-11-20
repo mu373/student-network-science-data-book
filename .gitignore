@@ -8,3 +8,5 @@ data/paris/*_MODIFIED*
 images/*_MODIFIED*
 images/pngs/*_MODIFIED*
 images/pdfs/*_MODIFIED*
+output_*.txt
+error_*.txt
