@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task 10                  # CPUs per task
 #SBATCH -o output_%j.txt                    # Standard output file
 #SBATCH -e error_%j.txt                     # Standard error file
-#SBATCH --mail-user=smith.alyss@northeastern.edu  # Email
+#SBATCH --mail-user=ueda.m@northeastern.edu  # Email
 #SBATCH --mail-type=ALL                     # Type of email notifications
 
 module load anaconda3/2022.05
