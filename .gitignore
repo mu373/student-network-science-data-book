@@ -10,3 +10,4 @@ images/pngs/*_MODIFIED*
 images/pdfs/*_MODIFIED*
 output_*.txt
 error_*.txt
+scripts/rumor_model*.pkl
