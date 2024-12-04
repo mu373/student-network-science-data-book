@@ -44,6 +44,7 @@ class_18_dynamics3_MODIFIED.ipynb
 class_19_bigdata2_MODIFIED.ipynb
 class_20_sampling_theory.ipynb
 class_21_sampling.ipynb
+class_23_temporal_networks.ipynb
 class_xx_project_template.ipynb
 color-explorer.ipynb
 commit_us.txt
@@ -60,6 +61,8 @@ data/episodes.json
 data/kardashian_jenner_urls_jan_1_2024_to_july_31_2024_mediacloud.csv
 data/mystery.pickle
 data/north_jutland_road_network.txt
+data/openflights_USairport_2010.txt
+data/openflights_airports.txt
 data/paris/network_bus.csv
 data/paris/network_nodes.csv
 data/paris/network_rail.csv
@@ -68,6 +71,7 @@ data/paris/network_tram.csv
 data/paris/network_walk.csv
 data/polblogs_edges_class.tsv
 data/polblogs_nodes_class.tsv
+data/sp.tsv
 data/stopwords-en.txt
 data/tsp/berlin52.gml
 data/tsp/brazil58.gml
@@ -97,6 +101,7 @@ images/barabasi_log_binning.png
 images/bernoulli.png
 images/boston_race.png
 images/bowtie.png
+images/bursts_barabasi_nature2005.png
 images/compartments_SEIR.png
 images/compartments_SI.png
 images/compartments_SIR.png
@@ -104,6 +109,7 @@ images/compartments_SIRS.png
 images/compartments_SIS.png
 images/complicated_compartment.png
 images/concentric_circles.png
+images/contact_tracing.png
 images/crab_ad.jpeg
 images/crab_ad_2.jpeg
 images/discovery_classroom_integration.png
@@ -194,13 +200,20 @@ images/pngs/prefattach_span_viz.png
 images/pngs/schelling_segregation_metric1.png
 images/pngs/schelling_segregation_metric2.png
 images/polysemy.png
+images/priority_queue_model.png
 images/randomwalk_stones_art.png
 images/randomwalks.png
 images/sad_ml.png
 images/sbm_1970s.png
 images/schedule.jpg
 images/schelling.png
+images/shortestpath1.png
+images/shortestpath2.png
+images/shortestpath3.png
+images/shortestpath4.png
+images/srep00397-f1.jpg
 images/sync_fork.png
+images/timescale.png
 images/vscode_remote_explorer_0.png
 images/vscode_remote_ssh_downloading.png
 images/vscode_remote_ssh_menu.png
