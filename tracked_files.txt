@@ -40,10 +40,9 @@ class_16_dynamics1.ipynb
 class_16_dynamics1_MODIFIED.ipynb
 class_17_dynamics2.ipynb
 class_17_dynamics2_MODIFIED.ipynb
-class_18_dynamics3.ipynb
 class_18_dynamics3_MODIFIED.ipynb
-class_19_bigdata2.ipynb
 class_19_bigdata2_MODIFIED.ipynb
+class_20_sampling_theory.ipynb
 class_21_sampling.ipynb
 class_xx_project_template.ipynb
 color-explorer.ipynb
@@ -54,6 +53,7 @@ data/Florida-bay-meta.csv
 data/Florida-bay.txt
 data/PaulRevereAppD.csv
 data/WhaleFromSpaceDB_Whales.csv
+data/as-22july06.gml.edgelist
 data/cit-HepPh/cit-HepPh-dates.txt
 data/cit-HepPh/cit-HepPh.txt
 data/episodes.json
@@ -82,8 +82,14 @@ git_fixer.py
 git_fixer2.py
 images/BFS.gif
 images/DFS.gif
+images/ES-i.png
+images/IncidentSubgraphSampling.png
+images/InducedSubgraphSampling.png
 images/MixingPatterns.png
+images/SnowballSampling.png
+images/TracerouteSampling.png
 images/accounting_inspect_course_5.png
+images/adamic_glance.png
 images/alphabetical_div_inspect_course_5.png
 images/anscombe_quartet.png
 images/barabasi_figure-4-22.png
@@ -160,6 +166,8 @@ images/pdfs/er_span_viz.pdf
 images/pdfs/modularity_fluctuations_sf.pdf
 images/pdfs/networkx_example_BFS.pdf
 images/pdfs/prefattach_span_viz.pdf
+images/pdfs/schelling_segregation_metric1.pdf
+images/pdfs/schelling_segregation_metric2.pdf
 images/pngs/Pk_ER_vs_poisson.png
 images/pngs/PolBlogs_inout_degreedist.png
 images/pngs/PolBlogs_inout_degreedist_binningcompare.png
@@ -183,6 +191,8 @@ images/pngs/modularity_fluctuations_sf.png
 images/pngs/multilayer_network.png
 images/pngs/networkx_example_BFS.png
 images/pngs/prefattach_span_viz.png
+images/pngs/schelling_segregation_metric1.png
+images/pngs/schelling_segregation_metric2.png
 images/polysemy.png
 images/randomwalk_stones_art.png
 images/randomwalks.png
