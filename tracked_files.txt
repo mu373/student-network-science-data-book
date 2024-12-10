@@ -44,7 +44,10 @@ class_18_dynamics3_MODIFIED.ipynb
 class_19_bigdata2_MODIFIED.ipynb
 class_20_sampling_theory.ipynb
 class_21_sampling.ipynb
+class_23_temporal_networks-MODIFIED.ipynb
 class_23_temporal_networks.ipynb
+class_24_spatial.ipynb
+class_24_spatial_MODIFIED.ipynb
 class_xx_project_template.ipynb
 color-explorer.ipynb
 commit_us.txt
@@ -59,6 +62,7 @@ data/cit-HepPh/cit-HepPh-dates.txt
 data/cit-HepPh/cit-HepPh.txt
 data/episodes.json
 data/kardashian_jenner_urls_jan_1_2024_to_july_31_2024_mediacloud.csv
+data/ma_clim.csv
 data/mystery.pickle
 data/north_jutland_road_network.txt
 data/openflights_USairport_2010.txt
@@ -73,6 +77,13 @@ data/polblogs_edges_class.tsv
 data/polblogs_nodes_class.tsv
 data/sp.tsv
 data/stopwords-en.txt
+data/tl_2020_25_tract/tl_2020_25_tract.cpg
+data/tl_2020_25_tract/tl_2020_25_tract.dbf
+data/tl_2020_25_tract/tl_2020_25_tract.prj
+data/tl_2020_25_tract/tl_2020_25_tract.shp
+data/tl_2020_25_tract/tl_2020_25_tract.shp.ea.iso.xml
+data/tl_2020_25_tract/tl_2020_25_tract.shp.iso.xml
+data/tl_2020_25_tract/tl_2020_25_tract.shx
 data/tsp/berlin52.gml
 data/tsp/brazil58.gml
 data/tsp/brg180.gml
@@ -151,6 +162,7 @@ images/ood_home_screen.png
 images/ood_jupyter.png
 images/ood_launch_jupyter.png
 images/ood_terminal_screenshot.png
+images/osmnx_examples.png
 images/pdfs/Pk_ER_vs_poisson.pdf
 images/pdfs/PolBlogs_inout_degreedist.pdf
 images/pdfs/PolBlogs_inout_degreedist_binningcompare.pdf
@@ -213,6 +225,7 @@ images/shortestpath3.png
 images/shortestpath4.png
 images/srep00397-f1.jpg
 images/sync_fork.png
+images/szell_geospatial.png
 images/timescale.png
 images/vscode_remote_explorer_0.png
 images/vscode_remote_ssh_downloading.png
